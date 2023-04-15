@@ -1,0 +1,14 @@
+public class Task2{
+  public static void main(String[]args){
+    MyThread add = new MyThread("add");
+    MyThread sub = new MyThread("sub");
+    MyThread mul = new MyThread("mul");
+    MyThread div = new MyThread("div");
+    MyThread oth = new MyThread("oth");
+    add.add(x,y);
+    sub.sub(x,y);
+    mul.mul(x,y);
+    div.div(x,y);
+    oth.oth(x,y);
+  }
+}

@@ -1,0 +1,13 @@
+public class task1{
+  public static void main(String[]args){
+    Process p1 = new Process(1,0,5);
+    Process(1,0,5);
+  }
+
+  public static void Process(int p, int at, int bt){
+    int P=p;
+    int a_t=at;
+    int b_t=bt;
+    System.out.println(b_t);
+  }
+}
